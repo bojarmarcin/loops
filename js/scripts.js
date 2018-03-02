@@ -1,5 +1,4 @@
 function drawtree(amount) {
-  var amount = prompt('How many rows do you want in your christmas tree?');
   for(var i = 0; i < amount; i++ ) {
 
     for(var j = 0; j < i; j++ ) {
@@ -8,4 +7,4 @@ function drawtree(amount) {
     document.write('<br>');
   }
 }
-drawtree();
+drawtree(10);
